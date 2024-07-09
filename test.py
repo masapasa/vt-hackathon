@@ -35,4 +35,4 @@ canvas5 = manifest.make_canvas_from_iiif(url="https://iiif.io/api/image/3.0/exam
                                          anno_id="https://iiif.io/api/cookbook/recipe/0009-book-1/annotation/p0005-image",
                                          anno_page_id="https://iiif.io/api/cookbook/recipe/0009-book-1/page/p5/1")
 
-print(manifest.json(indent=2))
+save(manifest.json(indent=2))

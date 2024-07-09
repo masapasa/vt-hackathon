@@ -2,8 +2,7 @@ import json
 from iiif_prezi3 import Manifest, config
 import requests
 
-url = 'https://www.loc.gov/item/sn96061150/1889-10-20/ed-1/manifest.json'
-`https://iiif.archive.org/iiif/3/sim_manifesto_1878-05_8_5/manifest.json`;
+url = "https://iiif.archive.org/iiif/3/sim_manifesto_1878-05_8_5/manifest.json";
 
 response = requests.get(url)
 
@@ -23,7 +22,7 @@ if response.status_code == 200:
             
 config.configs['helpers.auto_fields.AutoLang'].auto_lang = "en"
 
-manifest = Manifest(id="https://iiif.io/api/cookbook/recipe/0021-tagging/manifest.json",
+manifest = Manifest(id="https://iiif.archive.org/iiif/sim_manifesto_1878-05_8_5/manifest.json",
                     label={"en": ["The daily morning Astorian. [volume], October 20, 1889"]},
                     behavior=["paged"])
 

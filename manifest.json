@@ -1,0 +1,223 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.io/api/cookbook/recipe/0021-tagging/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "The daily morning Astorian. [volume], October 20, 1889"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "items": [
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "The daily morning Astorian. [volume], October 20, 1889"
+        ]
+      },
+      "height": 8696,
+      "width": 6564,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0368/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8696,
+                "width": 6564,
+                "service": [
+                  {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0368",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "The daily morning Astorian. [volume], October 20, 1889"
+        ]
+      },
+      "height": 8766,
+      "width": 6548,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0369/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8766,
+                "width": 6548,
+                "service": [
+                  {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0369",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://www.loc.gov/resource/sn96061150/1889-10-20/ed-1/seq-2/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0021-tagging/annotation/p0003-tag",
+              "type": "Annotation",
+              "motivation": "tagging",
+              "body": {
+                "type": "TextualBody",
+                "value": "Here is another annotation",
+                "format": "text/plain",
+                "language": "en"
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p2#xywh=265,661,1260,1239"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://127.0.0.1:9200/search/_doc/SZL_J5ABBoOnO3giCKwt",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "The daily morning Astorian. [volume], October 20, 1889"
+        ]
+      },
+      "height": 8762,
+      "width": 6432,
+      "items": [
+        {
+          "id": "https://www.loc.gov/resource/sn96061150/1889-10-20/ed-1/seq-3/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "http://example.org/iiif/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0370/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8762,
+                "width": 6432,
+                "service": [
+                  {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0370",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "http://127.0.0.1:9200/search/_doc/SZL_J5ABBoOnO3giCKwt"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://www.loc.gov/resource/sn96061150/1889-10-20/ed-1/seq-3/",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://www.loc.gov/resource/sn96061150/1889-10-20/ed-1/seq-3/p0002-tag",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "<p>Here is a sample annotation that can link back to a stable url<a href='https://de.wikipedia.org/wiki/G%C3%A4nseliesel-Brunnen_(G%C3%B6ttingen)'>G\u00e4nseliesel Brunnen <img src='https://en.wikipedia.org/static/images/project-logos/enwiki.png' alt='Wikipedia logo'></a></p>",
+                "format": "text/html",
+                "language": "en"
+              },
+              "target": "http://127.0.0.1:9200/search/_doc/SZL_J5ABBoOnO3giCKwt#xywh=265,661,1260,1239"
+            },
+            {
+              "id": "https://www.loc.gov/resource/sn96061150/1889-10-20/ed-1/seq-3/p0003-tag",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "value": "Here is another sample annotation that can link back to a stable <a href=nothing> url</a>",
+                "format": "text/plain",
+                "language": "en"
+              },
+              "target": "http://127.0.0.1:9200/search/_doc/SZL_J5ABBoOnO3giCKwt#xywh=2665,1861,160,439"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Blank page"
+        ]
+      },
+      "height": 8696,
+      "width": 6380,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0009-book-1/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0371/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 8696,
+                "width": 6380,
+                "service": [
+                  {
+                    "@id": "https://tile.loc.gov/image-services/iiif/service:ndnp:oru:batch_oru_hufnagel_ver02:data:sn96061150:00200298111:1889102001:0371",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://iiif.io/api/cookbook/recipe/0009-book-1/canvas/p4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
